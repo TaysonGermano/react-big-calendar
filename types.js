@@ -39,7 +39,8 @@ export interface SchedulerProps {
     item: any,
     formattedDateItems: any,
     style: any
-    ): void
+    ): void;
+    newEvent?(schedulerData:any, slotId:any, slotName:any, start:any, end:any, type:any, item:any):void;
    
 }
 
