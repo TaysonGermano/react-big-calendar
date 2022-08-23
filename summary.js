@@ -151,7 +151,7 @@ var Summary =
               },
               _react2.default.createElement(
                 "div",
-                { className: "prop-date-rate", style: style },
+                { style: style },
                 summary.text
               )
             );

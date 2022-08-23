@@ -261,14 +261,11 @@ var EventItem =
             var a = _react2.default.createElement(
               "a",
               {
-                className: "timeline-event",
-                style: {
-                  left: left + 40,
-                  width: width,
-                  top: top,
-                  display:
-                    eventItem.bgColor === "transparent" ? "none" : "flex",
-                },
+                className:
+                  bgColor === "transparent"
+                    ? "timeline-event rates-event"
+                    : "timeline-event",
+                style: { left: left + 40, width: width, top: top },
                 onClick: function onClick() {
                   if (!!eventItemClick)
                     eventItemClick(schedulerData, eventItem);
