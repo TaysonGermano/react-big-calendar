@@ -17,24 +17,28 @@ function _interopRequireDefault(obj) {
 }
 
 exports.default = {
-  schedulerWidth: "100%",
+  // schedulerWidth: "100%",
+  schedulerWidth: "90%",
   besidesWidth: 20,
   schedulerMaxHeight: 0,
-  tableHeaderHeight: 40,
+  // tableHeaderHeight: 40,
+  tableHeaderHeight: 30,
 
   agendaResourceTableWidth: 160,
   agendaMaxEventWidth: 100,
 
   dayResourceTableWidth: 160,
   weekResourceTableWidth: "16%",
-  monthResourceTableWidth: "20%",
+  // monthResourceTableWidth: "20%",
+  monthResourceTableWidth: "13%",
   quarterResourceTableWidth: 160,
   yearResourceTableWidth: 160,
   customResourceTableWidth: 160,
 
   dayCellWidth: 30,
   weekCellWidth: "12%",
-  monthCellWidth: 80,
+  // monthCellWidth: 80,
+  monthCellWidth: 50,
   quarterCellWidth: 80,
   yearCellWidth: 80,
   customCellWidth: 80,
