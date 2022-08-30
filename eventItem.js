@@ -264,8 +264,13 @@ var EventItem =
                 className:
                   bgColor === "transparent"
                     ? "timeline-event rates-event"
-                    : "timeline-event",
-                style: { left: left + 40, width: width, top: top },
+                    : `timeline-event ${eventItem.class && "continue-item"}`,
+                // style: { left: left, width: width, top: top },
+                style: {
+                  left: eventItem.class ? left : left + 20,
+                  width: eventItem.class ? width + 26 : width,
+                  top: top,
+                },
                 onClick: function onClick() {
                   if (!!eventItemClick)
                     eventItemClick(schedulerData, eventItem);
