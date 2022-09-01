@@ -495,6 +495,7 @@ var Scheduler =
                       "div",
                       {
                         style: resourceContentStyle,
+                        overflow: "hidden",
                         ref: this.schedulerResourceRef,
                         onMouseOver: this.onSchedulerResourceMouseOver,
                         onMouseOut: this.onSchedulerResourceMouseOut,

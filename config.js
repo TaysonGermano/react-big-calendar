@@ -23,6 +23,7 @@ exports.default = {
   schedulerMaxHeight: 0,
   // tableHeaderHeight: 40,
   tableHeaderHeight: 30,
+  schedulerMinWidth: 700,
 
   agendaResourceTableWidth: 160,
   agendaMaxEventWidth: 100,
