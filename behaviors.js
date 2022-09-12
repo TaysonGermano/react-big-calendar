@@ -103,6 +103,8 @@ var getNonAgendaViewBodyCellBgColor = (exports.getNonAgendaViewBodyCellBgColor =
   function getNonAgendaViewBodyCellBgColor(schedulerData, slotId, header) {
     // get header date
     const [year, month, day] = header.time.split("-");
+
+    // get today's date
     const today = `${moment().year()}-${
       moment().month() + 1
     }-${moment().date()}`;
