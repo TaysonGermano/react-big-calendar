@@ -73,7 +73,7 @@ exports.default = {
   checkConflict: false,
   scrollToSpecialMomentEnabled: true,
   eventItemPopoverEnabled: true,
-  calendarPopoverEnabled: true,
+  calendarPopoverEnabled: false,
   recurringEventsEnabled: true,
   headerEnabled: true,
   displayWeekend: true,
