@@ -264,12 +264,13 @@ var EventItem =
                 className:
                   bgColor === "transparent"
                     ? "timeline-event rates-event"
-                    : `timeline-event ${eventItem.class && "continue-item"}`,
+                    : `timeline-event ${eventItem.class}`,
                 // style: { left: left, width: width, top: top },
                 style: {
                   left: eventItem.class ? left : left + 20,
                   width: eventItem.class ? width + 26 : width,
                   top: top,
+                  zIndex: bgColor === "#ef3b5f" ? 3 : 2,
                 },
                 onClick: function onClick() {
                   if (!!eventItemClick)
