@@ -111,6 +111,8 @@ var getNonAgendaViewBodyCellBgColor = (exports.getNonAgendaViewBodyCellBgColor =
 
     if (moment(`${year}-${month}-${day}`).isBefore(today)) {
       return "#F5F9FC";
+    } else if(moment(`${year}-${month}-${day}`).isSame(today)){
+      return "#d6f0ed"
     }
 
     return undefined;
