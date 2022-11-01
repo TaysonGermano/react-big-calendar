@@ -262,9 +262,9 @@ var EventItem =
               "a",
               {
                 className:
-                  bgColor === "transparent"
-                    ? "timeline-event rates-event"
-                    : `timeline-event ${eventItem.class}`,
+                  (bgColor === "transparent"
+                    && "timeline-event rates-event") || (bgColor === "#333333"
+                    && "timeline-event booking-overlap") || `timeline-event ${eventItem.class}`,
                 // style: { left: left, width: width, top: top },
                 style: {
                   left: eventItem.class ? left : left + 20,
