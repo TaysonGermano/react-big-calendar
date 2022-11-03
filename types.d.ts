@@ -29,7 +29,7 @@ export interface SchedulerProps {
     eventItemPopoverTemplateResolver?(
         schedulerData: SchedulerData,
         eventItem: Event,
-        title: string,
+        title: any,
         start: moment.Moment,
         end: moment.Moment,
         statusColor: string,
